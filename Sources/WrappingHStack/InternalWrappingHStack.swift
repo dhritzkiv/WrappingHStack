@@ -1,6 +1,7 @@
 import SwiftUI
 
 // based on https://swiftui.diegolavalle.com/posts/linewrapping-stacks/
+@available(iOS 13.0, *)
 struct InternalWrappingHStack: View {
     let width: CGFloat
     let alignment: HorizontalAlignment

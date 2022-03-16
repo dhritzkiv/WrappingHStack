@@ -77,6 +77,7 @@ public struct WrappingHStack: View {
 
 // Convenience inits that allows 10 Elements (just like HStack).
 // Based on https://alejandromp.com/blog/implementing-a-equally-spaced-stack-in-swiftui-thanks-to-tupleview/
+@available(iOS 13.0, *)
 public extension WrappingHStack {
     private static func viewType<V: View>(from view: V) -> ViewType {
         switch view {

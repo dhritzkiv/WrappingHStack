@@ -9,6 +9,7 @@ import SwiftUI
 ///  `.dynamicIncludingBorders` to fill the full width with equal spacing
 ///  between items and from the items to the border.) and lineSpacing (which
 ///  adds a vertical separation between lines)
+@available(iOS 13.0, *)
 public struct WrappingHStack: View {
     private struct CGFloatPreferenceKey: PreferenceKey {
         static var defaultValue = CGFloat.zero
